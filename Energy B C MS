@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melon Sandbox - Energy Saber Colors</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; background: #1a1a2e; color: #eee; }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #333; }
+        th { background: #16213e; }
+        .swatch { display: inline-block; width: 24px; height: 24px; border-radius: 4px; vertical-align: middle; margin-right: 8px; }
+        .note { color: #aaa; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>⚔️ Energy Saber Colors</h1>
+    <p class="note">Melon Sandbox — community-documented color variants</p>
+    <table>
+        <tr><th>Color</th><th>Notes</th></tr>
+        <tr><td><span class="swatch" style="background:#4488ff"></span>Blue</td><td>~80% chance (common)</td></tr>
+        <tr><td><span class="swatch" style="background:#ff8800"></span>Orange</td><td>Flame gradient</td></tr>
+        <tr><td><span class="swatch" style="background:#ffdd00"></span>Yellow</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#ff2222"></span>Red</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#9944ff"></span>Purple</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#22cc44"></span>Green</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#ff66aa"></span>Pink</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#440066"></span>Dark Purple</td><td>Rare</td></tr>
+    </table>
+</body>
+</html>
