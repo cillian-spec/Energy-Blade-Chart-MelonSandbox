@@ -19,14 +19,17 @@
     <p class="note">Melon Sandbox — community-documented color variants</p>
     <table>
         <tr><th>Color</th><th>Notes</th></tr>
-        <tr><td><span class="swatch" style="background:#4488ff"></span>Blue</td><td>~80% chance (common)</td></tr>
+        <tr><td><span class="swatch" style="background:#4488ff"></span>Blue</td><td>~70% chance (common)</td></tr>
+        <tr><td><span class="swatch" style="background:#1a3366"></span>Dark Blue</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#88bbff"></span>Light Blue</td><td>Rare</td></tr>
         <tr><td><span class="swatch" style="background:#ff8800"></span>Orange</td><td>Flame gradient</td></tr>
         <tr><td><span class="swatch" style="background:#ffdd00"></span>Yellow</td><td>Rare</td></tr>
         <tr><td><span class="swatch" style="background:#ff2222"></span>Red</td><td>Rare</td></tr>
         <tr><td><span class="swatch" style="background:#9944ff"></span>Purple</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#440066"></span>Dark Purple</td><td>Rare</td></tr>
         <tr><td><span class="swatch" style="background:#22cc44"></span>Green</td><td>Rare</td></tr>
         <tr><td><span class="swatch" style="background:#ff66aa"></span>Pink</td><td>Rare</td></tr>
-        <tr><td><span class="swatch" style="background:#440066"></span>Dark Purple</td><td>Rare</td></tr>
+        <tr><td><span class="swatch" style="background:#222222"></span>Dark</td><td>Rare</td></tr>
     </table>
 </body>
 </html>
