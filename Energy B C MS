@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melon Sandbox - Energy Saber Colors</title>
     <style>
-        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; padding: 0 20px; background: #1a1a2e; color: #eee; }
+        body { font-family: sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; background: #1a1a2e; color: #eee; }
         h1 { text-align: center; }
         h2 { color: #aaa; font-size: 1em; margin-top: 30px; }
-        table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #333; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { padding: 8px 10px; text-align: left; border-bottom: 1px solid #333; }
         th { background: #16213e; }
         .swatch { display: inline-block; width: 24px; height: 24px; border-radius: 4px; vertical-align: middle; margin-right: 8px; }
         .note { color: #aaa; font-size: 0.9em; }
         .tier { font-weight: bold; }
-        .common { color: #4488ff; }
-        .rare { color: #ccc; }
+        .common { color: #ccc; }
+        .rare { color: #4488ff; }
+        .mid { color: #ff4444; }
         .superrare { color: #ff8800; }
         .legendary { color: #fff; }
     </style>
@@ -24,44 +25,78 @@
     <h1>⚔️ Energy Saber Colors</h1>
     <p class="note">Melon Sandbox — community-documented color variants</p>
 
-    <h2><span class="tier common">Common (~70%)</span></h2>
+    <h2><span class="tier common">Common</span></h2>
     <table>
         <tr><th>Color</th><th>Notes</th></tr>
-        <tr><td><span class="swatch" style="background:#4488ff"></span>Blue</td><td>Default</td></tr>
+        <tr><td><span class="swatch" style="background:#ffdd00"></span>Yellow</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#9944ff"></span>Purple</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#222222"></span>Dark</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#1a3366"></span>Dark Blue</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#440066"></span>Dark Purple</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#cc88ff"></span>Light Purple</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#88dd66"></span>Light Green</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#aa2200"></span>Dark Red</td><td>Red variant</td></tr>
+        <tr><td><span class="swatch" style="background:#115522"></span>Dark Green</td><td></td></tr>
     </table>
 
     <h2><span class="tier rare">Rare</span></h2>
     <table>
         <tr><th>Color</th><th>Notes</th></tr>
-        <tr><td><span class="swatch" style="background:#1a3366"></span>Dark Blue</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#88bbff"></span>Light Blue</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#ffdd00"></span>Yellow</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#ff2222"></span>Red</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#9944ff"></span>Purple</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#440066"></span>Dark Purple</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#22cc44"></span>Green</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#ff66aa"></span>Pink</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#222222"></span>Dark</td><td></td></tr>
-        <tr><td><span class="swatch" style="background:#44dddd"></span>Turquoise</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#4488ff"></span>Blue</td><td>Common on Acid Pool & Highway only</td></tr>
+    </table>
+
+    <h2><span class="tier mid">Uncommon</span></h2>
+    <table>
+        <tr><th>Color</th><th>Notes</th></tr>
+        <tr><td><span class="swatch" style="background:#ff2222"></span>Red</td><td>Between rare and super rare</td></tr>
     </table>
 
     <h2><span class="tier superrare">Super Rare</span></h2>
     <table>
         <tr><th>Color</th><th>Notes</th></tr>
         <tr><td><span class="swatch" style="background:#ff8800"></span>Orange</td><td>Flame gradient</td></tr>
+        <tr><td><span class="swatch" style="background:#44dddd"></span>Turquoise</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#ff66aa"></span>Pink</td><td></td></tr>
+        <tr><td><span class="swatch" style="background:#22cc44"></span>Green</td><td></td></tr>
     </table>
 
-    <h2><span class="tier legendary">Legendary (?)</span></h2>
+    <h2><span class="tier legendary">Legendary</span></h2>
     <table>
         <tr><th>Color</th><th>Notes</th></tr>
-        <tr><td><span class="swatch" style="background:#ffffff"></span>White</td><td>Unconfirmed</td></tr>
-        <tr><td><span class="swatch" style="background:#111111"></span>Black</td><td>Unconfirmed</td></tr>
+        <tr><td><span class="swatch" style="background:#ffffff"></span>White</td><td>Confirmed (flashed briefly)</td></tr>
+        <tr><td><span class="swatch" style="background:#111111"></span>Black</td><td>Confirmed (flashed when moved)</td></tr>
+    </table>
+
+    <h2>Map-Based Rarity</h2>
+    <table>
+        <tr><th>Map</th><th>Distribution</th></tr>
+        <tr><td>Acid Pool</td><td>Blue-heavy (~40%), Yellow common</td></tr>
+        <tr><td>Highway</td><td>Blue ~67%</td></tr>
+        <tr><td>Lava Pool</td><td>Blue ~55%, Yellow ~30%</td></tr>
+        <tr><td>Endless Ocean</td><td>Rares favoured</td></tr>
+        <tr><td>Moon</td><td>Rares favoured (purple-heavy)</td></tr>
+        <tr><td>Water Pool</td><td>Rares favoured</td></tr>
+        <tr><td>Default</td><td>Rares favoured (zero blue in 15)</td></tr>
+        <tr><td>Flat Grass</td><td>Rares favoured</td></tr>
+        <tr><td>Endless City</td><td>Rares favoured</td></tr>
+        <tr><td>Blade</td><td>Rares favoured</td></tr>
+        <tr><td>Tiny Pinky</td><td>Rares favoured</td></tr>
+        <tr><td>Stairs</td><td>Rares favoured</td></tr>
+        <tr><td>Mountain</td><td>Rares favoured</td></tr>
+        <tr><td>Volcano</td><td>Rares favoured (zero blue in 15)</td></tr>
+        <tr><td>Skate</td><td>Rares favoured</td></tr>
+        <tr><td>Hills</td><td>Rares favoured</td></tr>
     </table>
 
     <h2>Mechanics</h2>
     <ul class="note">
         <li>Blade touches water → retracts</li>
         <li>Hilt touches water → vanishes</li>
+        <li>All blades share a white-to-color gradient from the emitter</li>
+        <li>Gradients may be randomised per spawn</li>
+        <li>Legendary colors (white/black) flash briefly when moved</li>
     </ul>
+
+    <p class="note">16 maps tested · 17 confirmed colors · Complete</p>
 </body>
 </html>
